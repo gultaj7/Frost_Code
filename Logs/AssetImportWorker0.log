@@ -2,11 +2,11 @@ Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
 Branch:                  2022.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 15.3.1 (Build 24D70)
+macOS version:           Version 15.3.2 (Build 24D81)
 Darwin version:          24.3.0
-Architecture:            x86_64
+Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        8192 MB
+Available memory:        18432 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,19 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/gultacmuradova/Desktop/game_dev/Frost_Code
+/Users/firangizbakirli/Frost_Code
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 49376
 Successfully changed project path to: /Users/gultacmuradova/Desktop/game_dev/Frost_Code
 /Users/gultacmuradova/Desktop/game_dev/Frost_Code
+=======
+57537
+Successfully changed project path to: /Users/firangizbakirli/Frost_Code
+/Users/firangizbakirli/Frost_Code
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,31 +62,45 @@ Successfully changed project path to: /Users/gultacmuradova/Desktop/game_dev/Fro
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [140704502418176] Host "[IP] 172.16.150.150 [Port] 0 [Flags] 2 [Guid] 3671664816 [EditorId] 3671664816 [Version] 1048832 [Id] OSXEditor(0,Gultac-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [140704502418176] Host "[IP] 172.16.150.150 [Port] 0 [Flags] 2 [Guid] 3671664816 [EditorId] 3671664816 [Version] 1048832 [Id] OSXEditor(0,Gultac-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 37.28 ms, found 2 plugins.
+=======
+Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 4074140843 [EditorId] 4074140843 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 4074140843 [EditorId] 4074140843 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 4.66 ms, found 2 plugins.
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/gultacmuradova/Desktop/game_dev/Frost_Code/Assets
+[Subsystems] Discovering subsystems at path /Users/firangizbakirli/Frost_Code/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+ preferred device: Apple M3 Pro (high power)
 Metal devices available: 1
-0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56425
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.012815 seconds.
 - Loaded All Assemblies, in  0.779 seconds
 Native extension for Android target not found
@@ -90,10 +110,22 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.919 seconds
 Domain Reload Profiling: 1699ms
 	BeginReloadAssembly (277ms)
+=======
+Registered in 0.002314 seconds.
+- Loaded All Assemblies, in  0.193 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 86 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 451ms
+	BeginReloadAssembly (58ms)
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (74ms)
 	RebuildNativeTypeToScriptingClass (20ms)
@@ -117,6 +149,31 @@ Domain Reload Profiling: 1699ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (184ms)
 			ProcessInitializeOnLoadMethodAttributes (83ms)
+=======
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (58ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (226ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (158ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (44ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,6 +181,7 @@ Domain Reload Profiling: 1699ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  1.320 seconds
 Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
 Native extension for Android target not found
@@ -171,6 +229,55 @@ Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (51.3 KB). Loaded Objects now: 3590.
 Memory consumption went from 129.8 MB to 129.7 MB.
 Total: 5.793888 ms (FindLiveObjects: 0.437709 ms CreateObjectMapping: 0.385730 ms MarkObjects: 4.810374 ms  DeleteObjects: 0.158449 ms)
+=======
+- Loaded All Assemblies, in  0.331 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 612ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (50.9 KB). Loaded Objects now: 3591.
+Memory consumption went from 131.4 MB to 131.4 MB.
+Total: 1.968334 ms (FindLiveObjects: 0.090334 ms CreateObjectMapping: 0.028917 ms MarkObjects: 1.788958 ms  DeleteObjects: 0.059375 ms)
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,6 +294,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 2098.795668 seconds.
   path: Assets/Sprites/cupcakewrapping3.png
   artifactKey: Guid(525e29866d8ffdb4e8497c70f42a6622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
@@ -1025,3 +1133,267 @@ Received Import Request.
 Start importing Assets/Delicious Sweet Candies/png 256x256/eclair.png using Guid(3c8ada86f5e74445c93433fbc78b42c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e20d15f2a9dfebdc913b381936abb57') in 0.017117 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+=======
+  Time since last request: 103604.666468 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Coffee Maker.prefab
+  artifactKey: Guid(026bbb898b925f54b9fc6523b72e5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Coffee Maker.prefab using Guid(026bbb898b925f54b9fc6523b72e5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dccbf2c41f09850975b3a01e9a3a56') in 0.212863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/MicrowaveOven.prefab
+  artifactKey: Guid(68305497718ac414598fe53957098f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/MicrowaveOven.prefab using Guid(68305497718ac414598fe53957098f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0285e2793e509fe270f565652cec81b8') in 0.006928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Barrier.prefab
+  artifactKey: Guid(df9a8d94de14f974eba482b719b1f7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Barrier.prefab using Guid(df9a8d94de14f974eba482b719b1f7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f393e4e4ffa2875d7689955bd7c9388') in 0.052032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Conveyor/Conveyor_Long.prefab
+  artifactKey: Guid(0cbf8189007ea2042bac268ea5abc22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Conveyor/Conveyor_Long.prefab using Guid(0cbf8189007ea2042bac268ea5abc22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08e7da46443d35b569e9bcee13c61a') in 0.004907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Dryer.prefab
+  artifactKey: Guid(3103dcc75cee1ec4cba217971fd184be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Dryer.prefab using Guid(3103dcc75cee1ec4cba217971fd184be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9057d471d359682dde301565daa78df8') in 0.003848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fan.prefab
+  artifactKey: Guid(f14d1ac6dacfc0242bed295f91ed3591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fan.prefab using Guid(f14d1ac6dacfc0242bed295f91ed3591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44051b4ead46e884c1312924d1171f7f') in 0.003538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/PaletteWooden.prefab
+  artifactKey: Guid(6656dcc5f01119848861032461b5aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/PaletteWooden.prefab using Guid(6656dcc5f01119848861032461b5aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b77f8c492282aec0a6c14a9abd586af') in 0.007941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/CoffeeMaker.prefab
+  artifactKey: Guid(14fe1c4e689c6a14eb4f39a6eba45554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/CoffeeMaker.prefab using Guid(14fe1c4e689c6a14eb4f39a6eba45554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12edb122a1a35c03a3c716c98993fdcd') in 0.003437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Fridge.prefab
+  artifactKey: Guid(330da43e025295745907828267994ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Fridge.prefab using Guid(330da43e025295745907828267994ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93e1f000ec33899b20efa189095c768') in 0.002984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/FridgeSBS.prefab
+  artifactKey: Guid(88897531ce3817b40adb1b700509aa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/FridgeSBS.prefab using Guid(88897531ce3817b40adb1b700509aa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b582f946528e311ff737531edce9c578') in 0.003265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge.prefab
+  artifactKey: Guid(7b5ec1159cb969d4a8fe69fddc2f17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge.prefab using Guid(7b5ec1159cb969d4a8fe69fddc2f17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b51fac6a0e771358f47bb6cb5baee9') in 0.003250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/FanV2.prefab
+  artifactKey: Guid(08d28eaef00b28b41aefefc354079323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/FanV2.prefab using Guid(08d28eaef00b28b41aefefc354079323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f294c2477d3ac4ac65b7618cff586ebe') in 0.003516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/FanV2.prefab
+  artifactKey: Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/FanV2.prefab using Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c851ab4615e5851b3339d72ddeb270c') in 0.005958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Mixer.prefab
+  artifactKey: Guid(0bd166eac535dfd43bc28b43190b289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Mixer.prefab using Guid(0bd166eac535dfd43bc28b43190b289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18ba9d6a53db6e9371bee5af94fc17d') in 0.003656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Mixer.prefab
+  artifactKey: Guid(51375fb1aaf7a3a47be8f808c0a789f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Mixer.prefab using Guid(51375fb1aaf7a3a47be8f808c0a789f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4924a716fac71693ac04d460714c41') in 0.003282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/AirFryer.prefab
+  artifactKey: Guid(faf6c871a8458c24aa1a02ea4cf4d8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/AirFryer.prefab using Guid(faf6c871a8458c24aa1a02ea4cf4d8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbbc0e55272695f69fcc51343ba739a') in 0.003213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Cone.prefab
+  artifactKey: Guid(6930455d51111dd43993e54dc8b6476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Cone.prefab using Guid(6930455d51111dd43993e54dc8b6476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159383596b97124197ad7c243748efb8') in 0.003222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Dryer.prefab
+  artifactKey: Guid(eae26ab7edb22a54e8fab415ccacc23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Dryer.prefab using Guid(eae26ab7edb22a54e8fab415ccacc23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590961ee01a31f04408a28c68e47778a') in 0.003325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stove.prefab
+  artifactKey: Guid(158f818f5cdf7f54f8cb6f3b74f535c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stove.prefab using Guid(158f818f5cdf7f54f8cb6f3b74f535c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18ff14b007e8d11b2b77d4ad65eb230') in 0.004503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/FullPack_2.prefab
+  artifactKey: Guid(6f55006ad22d9d34ca164dc5034fa2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/FullPack_2.prefab using Guid(6f55006ad22d9d34ca164dc5034fa2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f198ac6552826dbdccfb8385accb7af') in 0.005618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/BoxWooden.prefab
+  artifactKey: Guid(2507e3391f9d5f443b26d889334d12ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/BoxWooden.prefab using Guid(2507e3391f9d5f443b26d889334d12ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b786c6c4888e637bfc3624d5c7aabcd8') in 0.002989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Cone.prefab
+  artifactKey: Guid(f701ebd1c03eedb40b8ce4906d11ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Cone.prefab using Guid(f701ebd1c03eedb40b8ce4906d11ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b818c6c1a5bff1f1b44bfe10c99f53') in 0.003133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Barrel.prefab
+  artifactKey: Guid(e86845a18098bae4b83f38956cac4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Barrel.prefab using Guid(e86845a18098bae4b83f38956cac4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660114d890643306ad122738153c8528') in 0.002942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Fan.prefab
+  artifactKey: Guid(3b82bc407b968c4419abdc3183c6e1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Fan.prefab using Guid(3b82bc407b968c4419abdc3183c6e1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba694351c2ba307dd8731849a9d60a12') in 0.003400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge_SBS.prefab
+  artifactKey: Guid(51ed19930404371458e8d3152edbad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge_SBS.prefab using Guid(51ed19930404371458e8d3152edbad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294202de8b0658c2bf8056b0c39ef5f1') in 0.003645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Microwave_Oven.prefab
+  artifactKey: Guid(189a9280397c2594ba84092398c84bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Microwave_Oven.prefab using Guid(189a9280397c2594ba84092398c84bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede1653dbe992d5be6605ed5da2b5463') in 0.003438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Canvas.prefab
+  artifactKey: Guid(28019ed7559355643b45e83ab53863ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Canvas.prefab using Guid(28019ed7559355643b45e83ab53863ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e72e4bfc42206ac90a1cdde6aad7cb5') in 0.001263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Ground.prefab
+  artifactKey: Guid(715401d994ff25a438a1a4d2a2f4858f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Ground.prefab using Guid(715401d994ff25a438a1a4d2a2f4858f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d9a58a442f358ca9a1f8c764de0c68') in 0.004751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.250366 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Stove.prefab
+  artifactKey: Guid(8c673e3b356152a4ca8285cb58c4f615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Stove.prefab using Guid(8c673e3b356152a4ca8285cb58c4f615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db4c977f51b347cf9452f59f078adc4') in 0.013152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Stovetop.prefab
+  artifactKey: Guid(390dd4c2d67112d42a4633c0a63e0def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Stovetop.prefab using Guid(390dd4c2d67112d42a4633c0a63e0def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8288687ee526a95ee73355689293effc') in 0.005696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallCorner.prefab
+  artifactKey: Guid(4b08fe5040dbbef488fa38a9224f2348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallCorner.prefab using Guid(4b08fe5040dbbef488fa38a9224f2348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d10878bfe8aebe5ce26569774e4d3ec') in 0.004179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallDoorL.prefab
+  artifactKey: Guid(6d882463e1e10a8498244b58d806ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallDoorL.prefab using Guid(6d882463e1e10a8498244b58d806ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a08272a611d53850faa5b6c7db4f66') in 0.004629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Washer.prefab
+  artifactKey: Guid(f767cce13dd852b4cbd5894364ae969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Washer.prefab using Guid(f767cce13dd852b4cbd5894364ae969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26f054ec68da0b20ffb880134b2e84d') in 0.005025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193

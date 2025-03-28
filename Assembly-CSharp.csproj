@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/DraggableItem.cs" />
+    <Compile Include="Assets/EKstudio/LowPoly Factory Machine Pack Demo/Scripts/OpenLinkOnButtonClick.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

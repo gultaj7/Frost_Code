@@ -2,11 +2,11 @@ Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
 Branch:                  2022.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 15.3.1 (Build 24D70)
+macOS version:           Version 15.3.2 (Build 24D81)
 Darwin version:          24.3.0
-Architecture:            x86_64
+Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        8192 MB
+Available memory:        18432 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,19 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/gultacmuradova/Desktop/game_dev/Frost_Code
+/Users/firangizbakirli/Frost_Code
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 49376
 Successfully changed project path to: /Users/gultacmuradova/Desktop/game_dev/Frost_Code
 /Users/gultacmuradova/Desktop/game_dev/Frost_Code
+=======
+57537
+Successfully changed project path to: /Users/firangizbakirli/Frost_Code
+/Users/firangizbakirli/Frost_Code
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,31 +62,45 @@ Successfully changed project path to: /Users/gultacmuradova/Desktop/game_dev/Fro
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [140704502418176] Host "[IP] 172.16.150.150 [Port] 0 [Flags] 2 [Guid] 3323359991 [EditorId] 3323359991 [Version] 1048832 [Id] OSXEditor(0,Gultac-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [140704502418176] Host "[IP] 172.16.150.150 [Port] 0 [Flags] 2 [Guid] 3323359991 [EditorId] 3323359991 [Version] 1048832 [Id] OSXEditor(0,Gultac-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 37.63 ms, found 2 plugins.
+=======
+Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 590446819 [EditorId] 590446819 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 590446819 [EditorId] 590446819 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 3.53 ms, found 2 plugins.
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/gultacmuradova/Desktop/game_dev/Frost_Code/Assets
+[Subsystems] Discovering subsystems at path /Users/firangizbakirli/Frost_Code/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+ preferred device: Apple M3 Pro (high power)
 Metal devices available: 1
-0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56986
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56427
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.012452 seconds.
 - Loaded All Assemblies, in  0.781 seconds
 Native extension for Android target not found
@@ -90,10 +110,22 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.917 seconds
 Domain Reload Profiling: 1699ms
 	BeginReloadAssembly (277ms)
+=======
+Registered in 0.002314 seconds.
+- Loaded All Assemblies, in  0.193 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 86 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 451ms
+	BeginReloadAssembly (58ms)
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (74ms)
 	RebuildNativeTypeToScriptingClass (20ms)
@@ -117,6 +149,31 @@ Domain Reload Profiling: 1699ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (183ms)
 			ProcessInitializeOnLoadMethodAttributes (84ms)
+=======
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (58ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (226ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (158ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (44ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,6 +181,7 @@ Domain Reload Profiling: 1699ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  1.319 seconds
 Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
 Native extension for Android target not found
@@ -171,6 +229,55 @@ Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (51.3 KB). Loaded Objects now: 3590.
 Memory consumption went from 129.8 MB to 129.7 MB.
 Total: 5.756522 ms (FindLiveObjects: 0.395374 ms CreateObjectMapping: 0.358114 ms MarkObjects: 4.758863 ms  DeleteObjects: 0.241637 ms)
+=======
+- Loaded All Assemblies, in  0.331 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 612ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (50.9 KB). Loaded Objects now: 3591.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 1.954166 ms (FindLiveObjects: 0.091709 ms CreateObjectMapping: 0.029458 ms MarkObjects: 1.780541 ms  DeleteObjects: 0.051959 ms)
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,6 +294,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 2098.795844 seconds.
   path: Assets/Sprites/cupcake1layer1.png
   artifactKey: Guid(4ea90d97e090032458b1c0b4ecfff216) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
@@ -905,3 +1013,59 @@ Received Import Request.
 Start importing Assets/Delicious Sweet Candies/png 256x256/popsicle.png using Guid(804dec480996d4603804092a4c13ecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81987fa80c4715e26093e8d0d30c3253') in 0.015866 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+=======
+  Time since last request: 103604.666034 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Machine/Machn_2.prefab
+  artifactKey: Guid(6b03a4b90ae5d5942907e925787d3465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Machine/Machn_2.prefab using Guid(6b03a4b90ae5d5942907e925787d3465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95e2b8fbdf980ba26b8f8e6801afc3a') in 0.230477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/FullPack_1.prefab
+  artifactKey: Guid(b9773f249e2cb1c46b432e7764ccde0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/FullPack_1.prefab using Guid(b9773f249e2cb1c46b432e7764ccde0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9a871b5018c630ab1e7fe1f68cdcf2') in 0.007002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/AirFryer.prefab
+  artifactKey: Guid(fbfe382c29a4ab547a520eb7084a534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/AirFryer.prefab using Guid(fbfe382c29a4ab547a520eb7084a534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0196ed4dccaf73c1fec4cd9298bde5') in 0.166507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 5.221646 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stovetop.prefab
+  artifactKey: Guid(eb766ebb61571b14baf76b08c8426daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stovetop.prefab using Guid(eb766ebb61571b14baf76b08c8426daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463da2fcd4f64b7b68a51e81af15230b') in 0.012911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Washer.prefab
+  artifactKey: Guid(bbf651e99fd157f4e822b8b66371a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Washer.prefab using Guid(bbf651e99fd157f4e822b8b66371a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fb1a7440226c823cfb07da4ece1925') in 0.005462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/Wall.prefab
+  artifactKey: Guid(9b6f641cf4d425747a2c043eaee6916b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/Wall.prefab using Guid(9b6f641cf4d425747a2c043eaee6916b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b0209d16c76f1b6d92f6d5555b4316') in 0.004355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallDoorR.prefab
+  artifactKey: Guid(73349a5084371054c88e240d1d5a3b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallDoorR.prefab using Guid(73349a5084371054c88e240d1d5a3b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39a62318c9dc20ef1c616859fcdb5a6') in 0.004723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+>>>>>>> 5e5c865c220ae3b00e21b7731730b989e617d193
