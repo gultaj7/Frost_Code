@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57537
+57653
 Successfully changed project path to: /Users/firangizbakirli/Frost_Code
 /Users/firangizbakirli/Frost_Code
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/firangizbakirli/Frost_Code
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 4074140843 [EditorId] 4074140843 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 4123481607 [EditorId] 4123481607 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 4074140843 [EditorId] 4074140843 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 4123481607 [EditorId] 4123481607 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 10 workers.
-Refreshing native plugins compatible for Editor in 4.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 9.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,47 +76,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56425
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56506
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002314 seconds.
-- Loaded All Assemblies, in  0.193 seconds
+Registered in 0.002352 seconds.
+- Loaded All Assemblies, in  0.195 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 86 ms
+Android Extension - Scanning For ADB Devices 63 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.257 seconds
-Domain Reload Profiling: 451ms
-	BeginReloadAssembly (58ms)
+- Finished resetting the current domain, in  0.225 seconds
+Domain Reload Profiling: 420ms
+	BeginReloadAssembly (64ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (83ms)
-		LoadAssemblies (58ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (64ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
-			TypeCache.Refresh (81ms)
-				TypeCache.ScanAssembly (73ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (70ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (257ms)
+	FinalizeReload (225ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (226ms)
+		SetupLoadedEditorAssemblies (195ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (158ms)
+			InitializePlatformSupportModulesInManaged (129ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (44ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadAttributes (43ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,54 +124,299 @@ Domain Reload Profiling: 451ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.331 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.320 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.280 seconds
-Domain Reload Profiling: 612ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0.268 seconds
+Domain Reload Profiling: 589ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (20ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (217ms)
-		LoadAssemblies (143ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (148ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (83ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (281ms)
+	FinalizeReload (269ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (182ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (23ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (50.9 KB). Loaded Objects now: 3591.
 Memory consumption went from 131.4 MB to 131.4 MB.
-Total: 1.968334 ms (FindLiveObjects: 0.090334 ms CreateObjectMapping: 0.028917 ms MarkObjects: 1.788958 ms  DeleteObjects: 0.059375 ms)
+Total: 2.067292 ms (FindLiveObjects: 0.094875 ms CreateObjectMapping: 0.028250 ms MarkObjects: 1.882625 ms  DeleteObjects: 0.061208 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103947.172425 seconds.
+  path: Assets/Pinky UI/Scene 1.unity
+  artifactKey: Guid(eab7b8ca680506d44ae808dd5a94bbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Scene 1.unity using Guid(eab7b8ca680506d44ae808dd5a94bbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476ca1a7df8f0383d585bb678d91130b') in 0.000948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.175207 seconds.
+  path: Assets/Pinky UI/Radio_Button
+  artifactKey: Guid(475af21ef0960b442acc84cf57faad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Radio_Button using Guid(475af21ef0960b442acc84cf57faad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf62ff4dfec8d572ac0c2591b51a47c2') in 0.000757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077110 seconds.
+  path: Assets/Pinky UI/Radio_Button/Radio_Button_Empty_Blue.png
+  artifactKey: Guid(b5b8a8ce5071b5b49b2e2130908a0773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Radio_Button/Radio_Button_Empty_Blue.png using Guid(b5b8a8ce5071b5b49b2e2130908a0773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898f687077f2fc803cd1c07a001f69ed') in 0.141998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.031810 seconds.
+  path: Assets/Pinky UI/Sliders/Slider_Background_Blue.png
+  artifactKey: Guid(397e1e064ee4a2e4189863ec3bbef596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Sliders/Slider_Background_Blue.png using Guid(397e1e064ee4a2e4189863ec3bbef596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd76b5d0534715e988280dd45d39849') in 0.028111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pinky UI/Sliders/Slider_Knob_Blue.png
+  artifactKey: Guid(a7e117b511f49eb47851f57ec4d0033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Sliders/Slider_Knob_Blue.png using Guid(a7e117b511f49eb47851f57ec4d0033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1906a6b739a895b8b1d897d187949100') in 0.008052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pinky UI/Sliders/Slider_Foreground_Blue.png
+  artifactKey: Guid(1c75960ffd129c74188d0fa6cf700883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Sliders/Slider_Foreground_Blue.png using Guid(1c75960ffd129c74188d0fa6cf700883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70398c29c6acf0dca88fba1d4dff84c') in 0.005315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.060978 seconds.
+  path: Assets/Pinky UI/Toggle_Button/Toggle_Button_Off_Blue.png
+  artifactKey: Guid(fc4007930cee0bf46b4c1a87e0666409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Toggle_Button/Toggle_Button_Off_Blue.png using Guid(fc4007930cee0bf46b4c1a87e0666409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbb60e054c087d627b067de4aecaac3') in 0.017919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Pinky UI/Toggle_Button/Toggle_Button_On_Pink.png
+  artifactKey: Guid(35b532649b2b4604d908b9b2f6c19849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Toggle_Button/Toggle_Button_On_Pink.png using Guid(35b532649b2b4604d908b9b2f6c19849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61636693e7ebe4f8c3abe9a6ec1c1912') in 0.007268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.575578 seconds.
+  path: Assets/Pinky UI/Checkboxes/Checkbox_Round_Checkmark_Blue.png
+  artifactKey: Guid(3d1a3371d48a0a1488b5e0b6efb4770b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Checkboxes/Checkbox_Round_Checkmark_Blue.png using Guid(3d1a3371d48a0a1488b5e0b6efb4770b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee426879ba86ffe165b5a92a63a5f3cf') in 0.017305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Pinky UI/Checkboxes/Checkbox_Round_Empty_Pink.png
+  artifactKey: Guid(58ee06205b88b614484cf438c7a3bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Checkboxes/Checkbox_Round_Empty_Pink.png using Guid(58ee06205b88b614484cf438c7a3bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cee2d13fcec6f7e7879262d8cca85d5') in 0.007832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.337536 seconds.
+  path: Assets/Pinky UI/Dialog_Box/Dialog_Box_Blue.png
+  artifactKey: Guid(53a6963790703c8489c4cb0c3d026cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Dialog_Box/Dialog_Box_Blue.png using Guid(53a6963790703c8489c4cb0c3d026cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbaabf109354c6dc057a8b6a1da2b54') in 0.019922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.354479 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Arrow.png
+  artifactKey: Guid(9ef725abdd8ee7543a0cef1ff4aec749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Arrow.png using Guid(9ef725abdd8ee7543a0cef1ff4aec749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565bd0b0701813cd67bd16782092bbf6') in 0.022917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Dot.png
+  artifactKey: Guid(d444fc22dc6d8124eb893d77582713a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Dot.png using Guid(d444fc22dc6d8124eb893d77582713a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4233b85796c5b64dab73d0ba2dffd5') in 0.008564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Hearth.png
+  artifactKey: Guid(2366e29b650c34446920b12a9ef84931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Hearth.png using Guid(2366e29b650c34446920b12a9ef84931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3474b3d1a1408a56fc8b2741f5e3f658') in 0.007119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Cancel.png
+  artifactKey: Guid(a2e2d4780baf62d4aa4bae6f675f6f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Cancel.png using Guid(a2e2d4780baf62d4aa4bae6f675f6f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0284820f2dd3fdb9653e599ff9dbb3c5') in 0.007254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Cup.png
+  artifactKey: Guid(8b08c0411dfad3440b31c9ccfca96a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Cup.png using Guid(8b08c0411dfad3440b31c9ccfca96a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffddd45c7f2ad649a00fb9f41fc9873b') in 0.007081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Home.png
+  artifactKey: Guid(b2132fc342dc04f459682233dc469d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Home.png using Guid(b2132fc342dc04f459682233dc469d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0a635f77c1a3ad718f7bd47312e9bf') in 0.005845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Question.png
+  artifactKey: Guid(61860dade0859bc4382440ca7ec0bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Question.png using Guid(61860dade0859bc4382440ca7ec0bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda5656ce3389c8edabb73ad2da75bf1') in 0.006987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Shop.png
+  artifactKey: Guid(47df6dfd843da8e428be529b1d6743f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Shop.png using Guid(47df6dfd843da8e428be529b1d6743f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eb6577724a65d8330bd3c4a15c7f90') in 0.006207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Star.png
+  artifactKey: Guid(bf77a2813dd1c7b44b9c2640ebdb961c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Star.png using Guid(bf77a2813dd1c7b44b9c2640ebdb961c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c70365c349d5262b71f5cc95ca3ce9d') in 0.006556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Gift.png
+  artifactKey: Guid(01f422032b616844198f2392592df0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Gift.png using Guid(01f422032b616844198f2392592df0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc3a7b78cc5f1779450f18015e16fe6') in 0.006096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Charts.png
+  artifactKey: Guid(90f19881effd38846b92bbb64669540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Charts.png using Guid(90f19881effd38846b92bbb64669540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb1c9ee0ecac52aa74c01f2dfb11588') in 0.004989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.646125 seconds.
+  path: Assets/Pinky UI/Progress_Bar/Progress_Bar_Background_Blue.png
+  artifactKey: Guid(4f972257c494abb4eb5338b552c0e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Progress_Bar/Progress_Bar_Background_Blue.png using Guid(4f972257c494abb4eb5338b552c0e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de91464fbb9c0de0a3239587a6f30357') in 0.023603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Pinky UI/Progress_Bar/Progress_Bar_Foreground_Pink.png
+  artifactKey: Guid(a35cb4ee76fb7084dbeb55e8d85ed13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Progress_Bar/Progress_Bar_Foreground_Pink.png using Guid(a35cb4ee76fb7084dbeb55e8d85ed13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd3b7c468d4ae9d69be86507c01da66') in 0.006522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.322610 seconds.
+  path: Assets/Pinky UI/Sliders
+  artifactKey: Guid(428341d56d31fab488bc9c94b266a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Sliders using Guid(428341d56d31fab488bc9c94b266a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8c29d26cf3db5c39eebf44642222d8') in 0.000325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.220585 seconds.
+  path: Assets/Pinky UI/Buttons/Oval_Rectangle
+  artifactKey: Guid(147b8172025a9e44b90f3ddeda6621c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Buttons/Oval_Rectangle using Guid(147b8172025a9e44b90f3ddeda6621c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5a76e5f0b3c52b8d2bed50b1db7eac') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049624 seconds.
+  path: Assets/Pinky UI/Buttons/Oval_Rectangle/Button_Oval_Rectangle_Blue.png
+  artifactKey: Guid(5c496139447c40d46ae3cbcda9c82b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Buttons/Oval_Rectangle/Button_Oval_Rectangle_Blue.png using Guid(5c496139447c40d46ae3cbcda9c82b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924637155f87771a6e937645fe49f0c1') in 0.014674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.431994 seconds.
+  path: Assets/Pinky UI/Buttons/Round/Button_Round_Blue.png
+  artifactKey: Guid(8caff66cbf3895c4bb3c9b3ab0e0fc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Buttons/Round/Button_Round_Blue.png using Guid(8caff66cbf3895c4bb3c9b3ab0e0fc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf95763b57c44d15b9199811acd3ff2a') in 0.021847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3605.
+Memory consumption went from 81.6 MB to 81.6 MB.
+Total: 2.030250 ms (FindLiveObjects: 0.098209 ms CreateObjectMapping: 0.028833 ms MarkObjects: 1.890833 ms  DeleteObjects: 0.012042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -187,265 +432,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 103604.666468 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Coffee Maker.prefab
-  artifactKey: Guid(026bbb898b925f54b9fc6523b72e5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Coffee Maker.prefab using Guid(026bbb898b925f54b9fc6523b72e5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dccbf2c41f09850975b3a01e9a3a56') in 0.212863 seconds
+  Time since last request: 230.847159 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_ColorPalette.mat
+  artifactKey: Guid(05d76758d32e57c4fb8fc7a6c26f4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_ColorPalette.mat using Guid(05d76758d32e57c4fb8fc7a6c26f4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291a4b89a38add8d5fee7cd1c2467ed8') in 0.027760 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/MicrowaveOven.prefab
-  artifactKey: Guid(68305497718ac414598fe53957098f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/MicrowaveOven.prefab using Guid(68305497718ac414598fe53957098f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0285e2793e509fe270f565652cec81b8') in 0.006928 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Barrier.prefab
-  artifactKey: Guid(df9a8d94de14f974eba482b719b1f7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Barrier.prefab using Guid(df9a8d94de14f974eba482b719b1f7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f393e4e4ffa2875d7689955bd7c9388') in 0.052032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Conveyor/Conveyor_Long.prefab
-  artifactKey: Guid(0cbf8189007ea2042bac268ea5abc22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Conveyor/Conveyor_Long.prefab using Guid(0cbf8189007ea2042bac268ea5abc22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08e7da46443d35b569e9bcee13c61a') in 0.004907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Dryer.prefab
-  artifactKey: Guid(3103dcc75cee1ec4cba217971fd184be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Dryer.prefab using Guid(3103dcc75cee1ec4cba217971fd184be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9057d471d359682dde301565daa78df8') in 0.003848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fan.prefab
-  artifactKey: Guid(f14d1ac6dacfc0242bed295f91ed3591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fan.prefab using Guid(f14d1ac6dacfc0242bed295f91ed3591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44051b4ead46e884c1312924d1171f7f') in 0.003538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/PaletteWooden.prefab
-  artifactKey: Guid(6656dcc5f01119848861032461b5aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/PaletteWooden.prefab using Guid(6656dcc5f01119848861032461b5aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b77f8c492282aec0a6c14a9abd586af') in 0.007941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/CoffeeMaker.prefab
-  artifactKey: Guid(14fe1c4e689c6a14eb4f39a6eba45554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/CoffeeMaker.prefab using Guid(14fe1c4e689c6a14eb4f39a6eba45554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12edb122a1a35c03a3c716c98993fdcd') in 0.003437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Fridge.prefab
-  artifactKey: Guid(330da43e025295745907828267994ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Fridge.prefab using Guid(330da43e025295745907828267994ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93e1f000ec33899b20efa189095c768') in 0.002984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/FridgeSBS.prefab
-  artifactKey: Guid(88897531ce3817b40adb1b700509aa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/FridgeSBS.prefab using Guid(88897531ce3817b40adb1b700509aa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b582f946528e311ff737531edce9c578') in 0.003265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge.prefab
-  artifactKey: Guid(7b5ec1159cb969d4a8fe69fddc2f17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge.prefab using Guid(7b5ec1159cb969d4a8fe69fddc2f17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b51fac6a0e771358f47bb6cb5baee9') in 0.003250 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/FanV2.prefab
-  artifactKey: Guid(08d28eaef00b28b41aefefc354079323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/FanV2.prefab using Guid(08d28eaef00b28b41aefefc354079323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f294c2477d3ac4ac65b7618cff586ebe') in 0.003516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/FanV2.prefab
-  artifactKey: Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/FanV2.prefab using Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c851ab4615e5851b3339d72ddeb270c') in 0.005958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Mixer.prefab
-  artifactKey: Guid(0bd166eac535dfd43bc28b43190b289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Mixer.prefab using Guid(0bd166eac535dfd43bc28b43190b289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18ba9d6a53db6e9371bee5af94fc17d') in 0.003656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Mixer.prefab
-  artifactKey: Guid(51375fb1aaf7a3a47be8f808c0a789f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Mixer.prefab using Guid(51375fb1aaf7a3a47be8f808c0a789f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4924a716fac71693ac04d460714c41') in 0.003282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/AirFryer.prefab
-  artifactKey: Guid(faf6c871a8458c24aa1a02ea4cf4d8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/AirFryer.prefab using Guid(faf6c871a8458c24aa1a02ea4cf4d8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbbc0e55272695f69fcc51343ba739a') in 0.003213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Cone.prefab
-  artifactKey: Guid(6930455d51111dd43993e54dc8b6476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Cone.prefab using Guid(6930455d51111dd43993e54dc8b6476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159383596b97124197ad7c243748efb8') in 0.003222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Dryer.prefab
-  artifactKey: Guid(eae26ab7edb22a54e8fab415ccacc23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Dryer.prefab using Guid(eae26ab7edb22a54e8fab415ccacc23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590961ee01a31f04408a28c68e47778a') in 0.003325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stove.prefab
-  artifactKey: Guid(158f818f5cdf7f54f8cb6f3b74f535c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stove.prefab using Guid(158f818f5cdf7f54f8cb6f3b74f535c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18ff14b007e8d11b2b77d4ad65eb230') in 0.004503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 88
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/FullPack_2.prefab
-  artifactKey: Guid(6f55006ad22d9d34ca164dc5034fa2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/FullPack_2.prefab using Guid(6f55006ad22d9d34ca164dc5034fa2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f198ac6552826dbdccfb8385accb7af') in 0.005618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/BoxWooden.prefab
-  artifactKey: Guid(2507e3391f9d5f443b26d889334d12ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/BoxWooden.prefab using Guid(2507e3391f9d5f443b26d889334d12ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b786c6c4888e637bfc3624d5c7aabcd8') in 0.002989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Cone.prefab
-  artifactKey: Guid(f701ebd1c03eedb40b8ce4906d11ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Cone.prefab using Guid(f701ebd1c03eedb40b8ce4906d11ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b818c6c1a5bff1f1b44bfe10c99f53') in 0.003133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Barrel.prefab
-  artifactKey: Guid(e86845a18098bae4b83f38956cac4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Barrel.prefab using Guid(e86845a18098bae4b83f38956cac4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660114d890643306ad122738153c8528') in 0.002942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Fan.prefab
-  artifactKey: Guid(3b82bc407b968c4419abdc3183c6e1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Fan.prefab using Guid(3b82bc407b968c4419abdc3183c6e1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba694351c2ba307dd8731849a9d60a12') in 0.003400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge_SBS.prefab
-  artifactKey: Guid(51ed19930404371458e8d3152edbad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge_SBS.prefab using Guid(51ed19930404371458e8d3152edbad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294202de8b0658c2bf8056b0c39ef5f1') in 0.003645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 79
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Microwave_Oven.prefab
-  artifactKey: Guid(189a9280397c2594ba84092398c84bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Microwave_Oven.prefab using Guid(189a9280397c2594ba84092398c84bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede1653dbe992d5be6605ed5da2b5463') in 0.003438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Canvas.prefab
-  artifactKey: Guid(28019ed7559355643b45e83ab53863ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Canvas.prefab using Guid(28019ed7559355643b45e83ab53863ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e72e4bfc42206ac90a1cdde6aad7cb5') in 0.001263 seconds
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Texture.mat
+  artifactKey: Guid(facb130459210ef479fd51615e963dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Texture.mat using Guid(facb130459210ef479fd51615e963dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0c746b257a050d18c6642c8bc2df20') in 0.002853 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Ground.prefab
-  artifactKey: Guid(715401d994ff25a438a1a4d2a2f4858f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Props/Ground.prefab using Guid(715401d994ff25a438a1a4d2a2f4858f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d9a58a442f358ca9a1f8c764de0c68') in 0.004751 seconds
+  Time since last request: 0.000092 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_GlassBlack.mat
+  artifactKey: Guid(6c0aaaba879c83944839dec15755926c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_GlassBlack.mat using Guid(6c0aaaba879c83944839dec15755926c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb55c3ad405d33434262a7a027196d6') in 0.003611 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 5.250366 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Stove.prefab
-  artifactKey: Guid(8c673e3b356152a4ca8285cb58c4f615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Stove.prefab using Guid(8c673e3b356152a4ca8285cb58c4f615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db4c977f51b347cf9452f59f078adc4') in 0.013152 seconds
+  Time since last request: 0.000055 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Pack2.mat
+  artifactKey: Guid(477de86e387cb3d4393cbb563311de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Pack2.mat using Guid(477de86e387cb3d4393cbb563311de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a227d0463b21ec25d5306d08a6595fa2') in 0.003516 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Stovetop.prefab
-  artifactKey: Guid(390dd4c2d67112d42a4633c0a63e0def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Stovetop.prefab using Guid(390dd4c2d67112d42a4633c0a63e0def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8288687ee526a95ee73355689293effc') in 0.005696 seconds
+  Time since last request: 0.000131 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Machn_Conveyor.mat
+  artifactKey: Guid(5f14aa85b9deb224293ef37c465a3667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Machn_Conveyor.mat using Guid(5f14aa85b9deb224293ef37c465a3667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6399d13472396f7b82c0df40ded06d37') in 0.003486 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallCorner.prefab
-  artifactKey: Guid(4b08fe5040dbbef488fa38a9224f2348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallCorner.prefab using Guid(4b08fe5040dbbef488fa38a9224f2348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d10878bfe8aebe5ce26569774e4d3ec') in 0.004179 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Pack1.mat
+  artifactKey: Guid(0126d1a883819074b90dbbc48588dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Pack1.mat using Guid(0126d1a883819074b90dbbc48588dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35305c4f0c3bcb683e98cf3cd40a96f1') in 0.003557 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallDoorL.prefab
-  artifactKey: Guid(6d882463e1e10a8498244b58d806ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallDoorL.prefab using Guid(6d882463e1e10a8498244b58d806ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a08272a611d53850faa5b6c7db4f66') in 0.004629 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Ground.mat
+  artifactKey: Guid(1cae5dd50f0911c449b61d83c6d277eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Ground.mat using Guid(1cae5dd50f0911c449b61d83c6d277eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fd9973ef53cc38658ee0cf4819b16b') in 0.003105 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Washer.prefab
-  artifactKey: Guid(f767cce13dd852b4cbd5894364ae969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Washer.prefab using Guid(f767cce13dd852b4cbd5894364ae969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26f054ec68da0b20ffb880134b2e84d') in 0.005025 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x318887000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.204 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 701ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (497ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (160ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.6 MB). Loaded Objects now: 3678.
+Memory consumption went from 141.9 MB to 141.3 MB.
+Total: 2.007541 ms (FindLiveObjects: 0.106625 ms CreateObjectMapping: 0.028542 ms MarkObjects: 1.691500 ms  DeleteObjects: 0.180250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

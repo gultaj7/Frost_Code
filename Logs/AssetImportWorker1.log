@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57537
+57653
 Successfully changed project path to: /Users/firangizbakirli/Frost_Code
 /Users/firangizbakirli/Frost_Code
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/firangizbakirli/Frost_Code
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 590446819 [EditorId] 590446819 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 852681514 [EditorId] 852681514 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 590446819 [EditorId] 590446819 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8373585984] Host "[IP] 172.16.150.149 [Port] 0 [Flags] 2 [Guid] 852681514 [EditorId] 852681514 [Version] 1048832 [Id] OSXEditor(0,Firangizs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 10 workers.
-Refreshing native plugins compatible for Editor in 3.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 7.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,47 +76,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56427
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002314 seconds.
-- Loaded All Assemblies, in  0.193 seconds
+Registered in 0.002429 seconds.
+- Loaded All Assemblies, in  0.195 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 86 ms
+Android Extension - Scanning For ADB Devices 52 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.257 seconds
-Domain Reload Profiling: 451ms
-	BeginReloadAssembly (58ms)
+- Finished resetting the current domain, in  0.217 seconds
+Domain Reload Profiling: 412ms
+	BeginReloadAssembly (64ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (18ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (83ms)
-		LoadAssemblies (58ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (65ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
-			TypeCache.Refresh (81ms)
-				TypeCache.ScanAssembly (73ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (70ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (257ms)
+	FinalizeReload (217ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (226ms)
+		SetupLoadedEditorAssemblies (187ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (158ms)
+			InitializePlatformSupportModulesInManaged (121ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (44ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadAttributes (43ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,54 +124,275 @@ Domain Reload Profiling: 451ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.331 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.320 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.280 seconds
-Domain Reload Profiling: 612ms
-	BeginReloadAssembly (68ms)
+- Finished resetting the current domain, in  0.268 seconds
+Domain Reload Profiling: 589ms
+	BeginReloadAssembly (62ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (20ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (217ms)
-		LoadAssemblies (143ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (148ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (104ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (83ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (78ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (281ms)
+	FinalizeReload (268ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (182ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (24ms)
-			ProcessInitializeOnLoadAttributes (135ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (130ms)
 			ProcessInitializeOnLoadMethodAttributes (9ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (50.9 KB). Loaded Objects now: 3591.
-Memory consumption went from 131.3 MB to 131.3 MB.
-Total: 1.954166 ms (FindLiveObjects: 0.091709 ms CreateObjectMapping: 0.029458 ms MarkObjects: 1.780541 ms  DeleteObjects: 0.051959 ms)
+Memory consumption went from 131.5 MB to 131.4 MB.
+Total: 2.107709 ms (FindLiveObjects: 0.099542 ms CreateObjectMapping: 0.029667 ms MarkObjects: 1.918625 ms  DeleteObjects: 0.059334 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103949.428657 seconds.
+  path: Assets/Pinky UI/Radio_Button/Radio_Button_Empty_Pink.png
+  artifactKey: Guid(24aa7ffb40ebcb14c9f82be0f90512c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Radio_Button/Radio_Button_Empty_Pink.png using Guid(24aa7ffb40ebcb14c9f82be0f90512c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61753c90cce70c2a1763109e979aae05') in 0.102821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Pinky UI/Radio_Button/Radio_Button_Selected_Blue.png
+  artifactKey: Guid(e44ec20166f1efa42a1cb60891ee5c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Radio_Button/Radio_Button_Selected_Blue.png using Guid(e44ec20166f1efa42a1cb60891ee5c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7816a4ec23141eff473ea699f91e82') in 0.006297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Pinky UI/Radio_Button/Radio_Button_Selected_Pink.png
+  artifactKey: Guid(24cabd28cfe3b0749987aa945c6c8f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Radio_Button/Radio_Button_Selected_Pink.png using Guid(24cabd28cfe3b0749987aa945c6c8f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64480d3fe34b50e64d6efa929198736b') in 0.005919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.058695 seconds.
+  path: Assets/Pinky UI/Sliders/Slider_Background_Pink.png
+  artifactKey: Guid(ed1468b8f6b833f4598c0f72cad3bce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Sliders/Slider_Background_Pink.png using Guid(ed1468b8f6b833f4598c0f72cad3bce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9485114ee5a6080685a937614ceac2') in 0.021916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Pinky UI/Sliders/Slider_Knob_Pink.png
+  artifactKey: Guid(a76e41c5c051a144bab55fa486e1c296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Sliders/Slider_Knob_Pink.png using Guid(a76e41c5c051a144bab55fa486e1c296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de2846ae64256bfede31690c5997817') in 0.007750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Pinky UI/Sliders/Slider_Foreground_Pink.png
+  artifactKey: Guid(24752e8d197227949a2ae0ad57d629a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Sliders/Slider_Foreground_Pink.png using Guid(24752e8d197227949a2ae0ad57d629a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e85b2a5d2ac3a67776dc8accf167cb7') in 0.005561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.066055 seconds.
+  path: Assets/Pinky UI/Toggle_Button/Toggle_Button_Off_Pink.png
+  artifactKey: Guid(cca174b95b243f247a708a184bc99d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Toggle_Button/Toggle_Button_Off_Pink.png using Guid(cca174b95b243f247a708a184bc99d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5b53a33f4cda1a947e642e4fa3a8d7') in 0.017431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Pinky UI/Toggle_Button/Toggle_Button_On_Blue.png
+  artifactKey: Guid(423cf6f32048a494c9d0450f2bc60f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Toggle_Button/Toggle_Button_On_Blue.png using Guid(423cf6f32048a494c9d0450f2bc60f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9cdeaaaf29c632a69f138f72116270') in 0.007240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.576192 seconds.
+  path: Assets/Pinky UI/Checkboxes/Checkbox_Round_Checkmark_Pink.png
+  artifactKey: Guid(c2b1357c578f5d947a2f3b1b868492bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Checkboxes/Checkbox_Round_Checkmark_Pink.png using Guid(c2b1357c578f5d947a2f3b1b868492bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f73f4a19e5a52cf93ed424e81104c6') in 0.016695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Pinky UI/Checkboxes/Checkbox_Round_Empty_Blue.png
+  artifactKey: Guid(76731fc55f58cbf4db4eb2329c80de15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Checkboxes/Checkbox_Round_Empty_Blue.png using Guid(76731fc55f58cbf4db4eb2329c80de15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78ea931367152c30ee28d6c7a534fc5') in 0.007747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.337981 seconds.
+  path: Assets/Pinky UI/Dialog_Box/Dialog_Box_Pink.png
+  artifactKey: Guid(d5c0f160ffd665f4fbb9b1591e6e86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Dialog_Box/Dialog_Box_Pink.png using Guid(d5c0f160ffd665f4fbb9b1591e6e86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41209be69c59180b56c5002368f99da') in 0.019404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.355228 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Bell.png
+  artifactKey: Guid(e68b15d1ec5fbd54599a9989b5ff36a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Bell.png using Guid(e68b15d1ec5fbd54599a9989b5ff36a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832587bb7df5501e375627fcd22b0dee') in 0.022068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Checkmark.png
+  artifactKey: Guid(cd290df35dcb768488d4981a9f56e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Checkmark.png using Guid(cd290df35dcb768488d4981a9f56e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abc14ce1890b68252465c8b3191a281') in 0.008990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Info.png
+  artifactKey: Guid(427f264d60e344a4cb096b813789aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Info.png using Guid(427f264d60e344a4cb096b813789aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6325703fab56d903e47208d3f32340') in 0.006888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_User.png
+  artifactKey: Guid(67041819e0fde04448b64bc35ab101f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_User.png using Guid(67041819e0fde04448b64bc35ab101f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b9eb0a93368676f4a8c151cb9121d0') in 0.007370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Settings.png
+  artifactKey: Guid(379f035139e19ac41aa52075a3ce75fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Settings.png using Guid(379f035139e19ac41aa52075a3ce75fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b2c6d20616944fb74f5832eaa01fde') in 0.007049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Play.png
+  artifactKey: Guid(342b484b08205244e82334672a68d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Play.png using Guid(342b484b08205244e82334672a68d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6fbd60c851a74b52ca32eb14702506') in 0.005913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Sound.png
+  artifactKey: Guid(673d41345020b0f4bac1b2371859c539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Sound.png using Guid(673d41345020b0f4bac1b2371859c539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4727e51d17450cf72352627f8704f150') in 0.006806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Exit.png
+  artifactKey: Guid(4e1c06b3711e6b84ab3089a2a8d86251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Exit.png using Guid(4e1c06b3711e6b84ab3089a2a8d86251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5566ed6ad15d7da956463b11d9d727e') in 0.006379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Menu.png
+  artifactKey: Guid(f4f343620e857214cbea977562b9f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Menu.png using Guid(f4f343620e857214cbea977562b9f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fda319e8d79e6bf1e43d6f5cafe3e30') in 0.006622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pinky UI/Icon_White/Icon_Note.png
+  artifactKey: Guid(b9135792ab5dc3d4fb903d34967c0cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Icon_White/Icon_Note.png using Guid(b9135792ab5dc3d4fb903d34967c0cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fee2e1bb600748c69095a5fc463ff9f') in 0.006185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.652459 seconds.
+  path: Assets/Pinky UI/Progress_Bar/Progress_Bar_Background_Pink.png
+  artifactKey: Guid(8be2ced0c73326945864308cb74a39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Progress_Bar/Progress_Bar_Background_Pink.png using Guid(8be2ced0c73326945864308cb74a39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7354f786bae301d7a4ec4802d8f3f58a') in 0.022034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Pinky UI/Progress_Bar/Progress_Bar_Foreground_Blue.png
+  artifactKey: Guid(10d2b9f1eae97a040925d4a67400cc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Progress_Bar/Progress_Bar_Foreground_Blue.png using Guid(10d2b9f1eae97a040925d4a67400cc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f702ce50db3db104e598767176ff24') in 0.006845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.595201 seconds.
+  path: Assets/Pinky UI/Buttons/Oval_Rectangle/Button_Oval_Rectangle_Pink.png
+  artifactKey: Guid(c7f2493f0628b064aa3d2bd3e460f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Buttons/Oval_Rectangle/Button_Oval_Rectangle_Pink.png using Guid(c7f2493f0628b064aa3d2bd3e460f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1ad74f776e4870eb7cc27268aa1571') in 0.013984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.433228 seconds.
+  path: Assets/Pinky UI/Buttons/Round/Button_Round_Pink.png
+  artifactKey: Guid(4e533b2797390a541a0912643de6bf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pinky UI/Buttons/Round/Button_Round_Pink.png using Guid(4e533b2797390a541a0912643de6bf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5b3a4b5cfdd31bdaa234716e5f8986') in 0.020569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3605.
+Memory consumption went from 81.7 MB to 81.7 MB.
+Total: 2.119250 ms (FindLiveObjects: 0.101875 ms CreateObjectMapping: 0.028416 ms MarkObjects: 1.980292 ms  DeleteObjects: 0.008417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -187,57 +408,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 103604.666034 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Machine/Machn_2.prefab
-  artifactKey: Guid(6b03a4b90ae5d5942907e925787d3465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Machine/Machn_2.prefab using Guid(6b03a4b90ae5d5942907e925787d3465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95e2b8fbdf980ba26b8f8e6801afc3a') in 0.230477 seconds
+  Time since last request: 230.847382 seconds.
+  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Glass.mat
+  artifactKey: Guid(e0f3a02846fd8db43b4533e7bf7e9efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Material/M_Glass.mat using Guid(e0f3a02846fd8db43b4533e7bf7e9efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b538f2e7fdb23716f6aac376ff4105') in 0.240616 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/FullPack_1.prefab
-  artifactKey: Guid(b9773f249e2cb1c46b432e7764ccde0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/FullPack_1.prefab using Guid(b9773f249e2cb1c46b432e7764ccde0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9a871b5018c630ab1e7fe1f68cdcf2') in 0.007002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/AirFryer.prefab
-  artifactKey: Guid(fbfe382c29a4ab547a520eb7084a534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/AirFryer.prefab using Guid(fbfe382c29a4ab547a520eb7084a534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0196ed4dccaf73c1fec4cd9298bde5') in 0.166507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 5.221646 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stovetop.prefab
-  artifactKey: Guid(eb766ebb61571b14baf76b08c8426daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stovetop.prefab using Guid(eb766ebb61571b14baf76b08c8426daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463da2fcd4f64b7b68a51e81af15230b') in 0.012911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Washer.prefab
-  artifactKey: Guid(bbf651e99fd157f4e822b8b66371a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Washer.prefab using Guid(bbf651e99fd157f4e822b8b66371a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fb1a7440226c823cfb07da4ece1925') in 0.005462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/Wall.prefab
-  artifactKey: Guid(9b6f641cf4d425747a2c043eaee6916b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/Wall.prefab using Guid(9b6f641cf4d425747a2c043eaee6916b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b0209d16c76f1b6d92f6d5555b4316') in 0.004355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallDoorR.prefab
-  artifactKey: Guid(73349a5084371054c88e240d1d5a3b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EKstudio/LowPoly Factory Machine Pack Demo/Prefabs/Walls/WallDoorR.prefab using Guid(73349a5084371054c88e240d1d5a3b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39a62318c9dc20ef1c616859fcdb5a6') in 0.004723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x312caf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.206 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 702ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (497ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (158ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.6 MB). Loaded Objects now: 3678.
+Memory consumption went from 142.1 MB to 141.4 MB.
+Total: 1.970416 ms (FindLiveObjects: 0.108709 ms CreateObjectMapping: 0.030083 ms MarkObjects: 1.648125 ms  DeleteObjects: 0.183208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
