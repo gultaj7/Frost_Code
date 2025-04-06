@@ -46,6 +46,11 @@ public class CupcakeGenerator : MonoBehaviour
             frostingImage.sprite = frostingSprites[frostingIndex];
             frostingImage.enabled = true;
         }
+        
     }
+        void Start()
+        {
+            GenerateRandomCupcake();
+        }
 }
 
