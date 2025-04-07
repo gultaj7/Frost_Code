@@ -3180,6 +3180,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 682481152}
     m_Modifications:
+    - target: {fileID: 4108128728675867773, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108128728675867773, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 165349825
+      objectReference: {fileID: 0}
     - target: {fileID: 5006361092674827316, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
       propertyPath: baseButtonsGroup
       value: 
@@ -3267,6 +3275,22 @@ PrefabInstance:
     - target: {fileID: 5048291516125572164, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5900627680383516506, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5900627680383516506, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2141293221
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693808331391235527, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693808331391235527, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1473574487
       objectReference: {fileID: 0}
     - target: {fileID: 8203066697633909611, guid: 25ee163034f1c4678b91837c7b68045c, type: 3}
       propertyPath: m_Name
