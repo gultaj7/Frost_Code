@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public enum Wrapper { None, Green, Blue, Pink, Purple }
 public enum Base { None, Vanilla, Strawberry, Choco }
@@ -29,11 +30,24 @@ public class CupcakeBuilder : MonoBehaviour
     public AudioClip correctChoice;
     public AudioClip winSound;
 
+    public Animator animController;
+
+    public CupcakeGenerator tele;
+
     private int frostingSelect = -1;
+
+    private float waitFor = 0.3f;
 
     /* ---- public methods called by buttons ---- */
     public void SetWrapper(int id)
     {
+        animController.SetTrigger("cone1");
+        StartCoroutine(SetWrapperEnum(id));
+    }
+
+    private IEnumerator SetWrapperEnum(int id)
+    {
+        yield return new WaitForSeconds(waitFor);
         curWrap = (Wrapper)id;
         wrapperR.sprite = wrapperSprites[id];
         baseButtonsGroup.SetActive(id != 0);
@@ -49,6 +63,13 @@ public class CupcakeBuilder : MonoBehaviour
     public void SetBase(int id)
     {
         if (curWrap == Wrapper.None) return;
+        animController.SetTrigger("cone2");
+        StartCoroutine(SetBaseEnum(id));
+    }
+
+    private IEnumerator SetBaseEnum(int id)
+    {
+        yield return new WaitForSeconds(waitFor);
         curBase = (Base)id;
         baseR.sprite = baseSprites[id];
         frostingButtonsGroup.SetActive(id != 0);
@@ -66,6 +87,13 @@ public class CupcakeBuilder : MonoBehaviour
     public void SetFrosting(int id)
     {
         if (curBase == Base.None) return;
+        animController.SetTrigger("cone3");
+        StartCoroutine(SetFrostingEnum(id));
+    }
+
+    private IEnumerator SetFrostingEnum(int id)
+    {
+        yield return new WaitForSeconds(waitFor);
         frostingR.sprite = frostingSprites[id];
 
         frostingSelect = id - 1;
@@ -74,8 +102,7 @@ public class CupcakeBuilder : MonoBehaviour
         else
             GetComponent<AudioSource>().clip = correctChoice;
 
-        GetComponent<AudioSource>().Play();
-    }
+        GetComponent<AudioSource>().Play();}
 
     public void CheckItAll()
     {
@@ -87,5 +114,18 @@ public class CupcakeBuilder : MonoBehaviour
             GetComponent<AudioSource>().clip = winSound;
 
         GetComponent<AudioSource>().Play();
+
+        StartCoroutine(RestartGame());
+    }
+
+    private IEnumerator RestartGame()
+    {
+        yield return new WaitForSeconds(waitFor + 0.2f);
+
+        wrapperR.sprite = wrapperSprites[0];
+        baseR.sprite = baseSprites[0];
+        frostingR.sprite = frostingSprites[0];
+
+        tele.GenerateRandomCupcake();
     }
 }

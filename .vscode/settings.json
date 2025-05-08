@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Frost_Code-main.sln"
+    "dotnet.defaultSolution": "Frost_Code.sln"
 }
